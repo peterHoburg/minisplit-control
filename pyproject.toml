@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "minisplit-control"
+version = "0.1.0"
+description = ""
+authors = ["Peter <peterHoburg@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+circuitpython-stubs = "^8.2.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -11,7 +11,21 @@ files = [
     {file = "circuitpython_stubs-8.2.6-py3-none-any.whl", hash = "sha256:7bce94e23dce774a3d37609f2ca4b0d4dbd19d292163ad1df7e340a155e3275f"},
 ]
 
+[[package]]
+name = "pyserial"
+version = "3.5"
+description = "Python Serial Port Extension"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pyserial-3.5-py2.py3-none-any.whl", hash = "sha256:c4451db6ba391ca6ca299fb3ec7bae67a5c55dde170964c7a14ceefec02f2cf0"},
+    {file = "pyserial-3.5.tar.gz", hash = "sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"},
+]
+
+[package.extras]
+cp2110 = ["hidapi"]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "7ae6925073972fe5fce3c5ed9f4436713f260a1fc65d4c634ab24a0bf8f97dc1"
+content-hash = "201931222cb2fa69c990db20753903f2825579ff09a3ebd8959eef4989edb398"

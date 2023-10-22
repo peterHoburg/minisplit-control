@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 circuitpython-stubs = "^8.2.6"
+pyserial = "^3.5"
 
 
 [build-system]
